@@ -35,7 +35,7 @@ def cipher(msg, offset, mode='e'):
             message += value
         else:
             message += i
-    print(message)
+    print('\n' + message)
 
 # Test / Debug Statements
 cipher("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 3, 'e')
