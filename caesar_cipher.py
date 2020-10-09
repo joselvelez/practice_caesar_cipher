@@ -37,7 +37,7 @@ def cipher(msg, offset, mode='e'):
             message += i
     print(message)
 
-# Test / Debug
+# Test / Debugging
 cipher("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 3, 'e')
 cipher("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", 3, 'd')
 
